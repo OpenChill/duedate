@@ -1,0 +1,6 @@
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/OpenChill/duedate.git
+git push -u origin master
+
+git pull https://github.com/OpenChill/duedate.git
