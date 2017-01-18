@@ -19,8 +19,11 @@ h1{
 	
 .slogan{
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 22px;
 	}
+.modate {
+	font-size: 20px;
+}
 	
 .body-box{
 	position: relative;
@@ -61,7 +64,7 @@ h4{
 	font-size: 25px;
 	}
 .nest-first{
-	border-style: solid;
+	border-style: dashed;
 	border-width: 1px;
 	border-color: black;
 	padding: 2%;
@@ -73,7 +76,8 @@ h4{
 
 .collapen{
 	position: relative;
-	top: -20px; 
+	top: -10px; 
+	font-size: 18px;
 	}
 
 .linespace{

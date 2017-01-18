@@ -1,0 +1,40 @@
+.menu{
+	height: 50px;
+	border-style: solid;
+	border-color: black;
+	margin: -7px;
+	}
+button{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(	160,82,45,0.8 ); 
+	color: white;
+	border-radius: 50px;
+	}
+
+button:hover{
+	background-color: rgba(	160,82,45,0.3 ); 
+	color: black;
+	}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	height: 100%;
+}
+
+ th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 2px;
+	height:100%;
+}
+
+
+
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
