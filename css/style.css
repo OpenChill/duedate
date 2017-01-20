@@ -1,10 +1,11 @@
 body{
-	position: relative;
+	/*position: relative;
 	padding-right: 30%;
-	padding-left: 20%;
+	padding-left: 20%;*/
+	padding: 15%;
 	background-image:url('../images/img_lite.jpg');
-	
-	}
+	margin: 0 auto;
+}
 	
 .head-con{
 	 background-color: rgba(255,255,255,0.3);
@@ -98,5 +99,4 @@ h4{
 		padding-top: 3%;
 		}
 }
-
 
