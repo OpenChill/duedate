@@ -1,8 +1,13 @@
 .menu{
-	height: 50px;
-	border-style: solid;
-	border-color: black;
+	height: 100px;
+	width: 50%;
 	margin: -7px;
+	position: fixed;
+	margin-left: 0%;
+	margin-top: -80px;
+	background-color: #FFE4C4;
+	z-index: 3;
+	padding-bottom: 40px;
 	}
 button{
 	position: relative;
