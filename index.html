@@ -33,7 +33,7 @@
 							OpenSource & Chill
 						</button>
 					</th>
-					<th>0
+					<th>
 						<button type="button" onclick="location.href='http://duedate.gear.host'">
 							Duedate
 						</button>
@@ -70,14 +70,22 @@
 		
 		
 		<div id="main-menu-mini">
-				
 			
 		</div>
 		
+		<div id="overlay">
+		
+		</div>
 		<script>
 			function menuFunction() {
 				document.getElementById("main-menu-mini").style.display = "block";
+				document.getElementById("overlay").style.display = "block";
 			}
+			
+			function menu-hideFunction() {
+				document.getElementById("main-menu-mini").style.display = "none";
+			}
+			
 		</script>
 		
 		

@@ -73,10 +73,16 @@ tr:nth-child(even) {
 		width: 90%;
 		height: 80%;
 		background-image:url('./images/img_wood.jpg');
-		z-index: 10;
+		z-index: 30;
 		background-repeat: no-repeat;
 		
 		margin-top: 10%;
 		top: 0;
+	}
+	
+	#overlay{
+		display: none;
+		background-color: rgba(	0,0,0,0.8 ); 
+		
 	}
 }
