@@ -9,6 +9,11 @@
 	z-index: 3;
 	padding-bottom: 40px;
 	}
+	
+.menu-mini{
+	display: none;
+}
+
 button{
 	position: relative;
 	width: 100%;
@@ -42,4 +47,36 @@ table {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+	.menu{
+		display: none; 
+	}
+
+		
+	.menu-mini{
+		position: fixed;
+		display: block;
+		width: 90%;
+		height: 50px;
+		top: 0;
+	}
+	
+	#main-menu-mini{
+		display: none;
+		position: fixed;
+		border-radius: 50px;
+		width: 90%;
+		height: 80%;
+		background-image:url('./images/img_wood.jpg');
+		z-index: 10;
+		background-repeat: no-repeat;
+		
+		margin-top: 10%;
+		top: 0;
+	}
 }
