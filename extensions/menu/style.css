@@ -73,7 +73,7 @@ tr:nth-child(even) {
 		width: 90%;
 		height: 80%;
 		background-image:url('./images/img_wood.jpg');
-		z-index: 30;
+		z-index: 40;
 		background-repeat: no-repeat;
 		
 		margin-top: 10%;
@@ -81,7 +81,14 @@ tr:nth-child(even) {
 	}
 	
 	#overlay{
+		position: fixed;
 		display: none;
+		height: 800px;
+		width: 100%;
+		z-index: 30;
+		top: 0;
+		left:0;
+		
 		background-color: rgba(	0,0,0,0.8 ); 
 		
 	}
