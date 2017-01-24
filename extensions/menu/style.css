@@ -49,7 +49,9 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-
+#main-menu-mini{
+		display: none;
+	}
 
 
 @media screen and (max-width: 980px) {

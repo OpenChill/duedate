@@ -62,7 +62,7 @@
 		<!--- Menu Mini --->
 		
 		<div class="menu-mini">
-			<button type="button" onclick="menuFunction()">
+			<button type="button" onClick="menuFunction()">
 				MENU
 			</button>	
 			
@@ -70,13 +70,13 @@
 		
 		
 		<div id="main-menu-mini">
-			<button type="button" onclick="close-menuFunction()">
+			<button type="button" onclick="close-menuFunction();">
 				Close
 			</button>
 			<table class="mini-body">
 				<tr>
 					<td>
-						<button type="button" onclick="homeFunction; close-menuFunction();">
+						<button type="button" onclick="homeFunction(); close-menuFunction(); location.href='http://openchill.gear.host'">
 							Home
 						</button>
 					</td>
@@ -85,7 +85,20 @@
 							Duedate
 						</button>
 					</td>
-			
+				</tr>
+				<tr>
+					<td>
+						<button type="button" onclick="homeFunction; close-menuFunction();">
+							Timetable
+						</button>
+					</td>
+					<td>
+						<button>
+							Resources
+						</button>
+					</td>
+				
+				</tr>
 			</table>
 		</div>
 		
@@ -101,12 +114,11 @@
 		</script>
 		
 		<script>
-		function menu-hideFunction() {
-				document.getElementById("main-menu-mini").style.display = "none";
-			}
-
+			function close-menuFunction() {
+					document.getElementById("main-menu-mini").style.display = "none";
+					document.getElementById("overlay").style.display = "none";
+				}
 		</script>
-		
 		
 		<div class="body-box">
 	<!--- Project #1--->
@@ -131,7 +143,7 @@
 			</div>
 			<div class="linespace"></div>
 			
-		<!--- Start Here  --->	
+		<!--- Start Here  -->	
 		
 			<div class="row">
 				<div class="box">
@@ -161,7 +173,7 @@
 				</div>
 			</div>
 			<div class="linespace"></div>
-		<!--- End Here --->			
+		<!--- End Here -->			
 		
 		</div>
 			
