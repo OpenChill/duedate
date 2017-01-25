@@ -24,7 +24,7 @@
 	</head>
 	
 	<body>
-	<!--- Menu --->
+		<!--- Menu --->
 		<div class="menu">
 			<table>	
 				<tr>
@@ -51,75 +51,28 @@
 				</tr>
 			</table>
 		</div>
-
-		
-		<div class="head-con">
-			<h1> Due Date</h1>
-			<p class="slogan"> Projects & Assignment Deadline</p>
-			<p class="modate"> Last Update: 18/Jan/2017 </p>
+	
+	
+	
+		<div class="nav-bar-mobile">
+			<div class="navbar-static-top navbar-inverse">
+				<div class="container">
+					<div class="navbar-brand">
+						OpenSource & Chill
+					</div>
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+						Menu
+					</button>
+					<div class="collapse navbar-collapse navHeaderCollapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="http://openchill.gear.host/">Home</a></li>
+							<li><a href="http://duedate.gear.host/">Duedate</a></li>
+							<li><a href="http://timetable.gear.host/">Timetable</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
-		
-		<!--- Menu Mini --->
-		
-		<div class="menu-mini">
-			<button type="button" onClick="menuFunction()">
-				MENU
-			</button>	
-			
-		</div>
-		
-		
-		<div id="main-menu-mini">
-			<button type="button" onclick="close-menuFunction();">
-				Close
-			</button>
-			<table class="mini-body">
-				<tr>
-					<td>
-						<button type="button" onclick="homeFunction(); close-menuFunction(); location.href='http://openchill.gear.host'">
-							Home
-						</button>
-					</td>
-					<td>
-						<button>
-							Duedate
-						</button>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<button type="button" onclick="homeFunction; close-menuFunction();">
-							Timetable
-						</button>
-					</td>
-					<td>
-						<button>
-							Resources
-						</button>
-					</td>
-				
-				</tr>
-			</table>
-		</div>
-		
-		<div id="overlay">
-		
-		</div>
-		<script>
-			function menuFunction() {
-						document.getElementById("main-menu-mini").style.display = "block";
-						document.getElementById("overlay").style.display = "block";
-					}
-			
-		</script>
-		
-		<script>
-			function close-menuFunction() {
-					document.getElementById("main-menu-mini").style.display = "none";
-					document.getElementById("overlay").style.display = "none";
-				}
-		</script>
-		
 		<div class="body-box">
 	<!--- Project #1--->
 			<div class="row">

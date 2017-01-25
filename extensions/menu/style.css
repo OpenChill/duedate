@@ -53,6 +53,10 @@ tr:nth-child(even) {
 		display: none;
 	}
 
+.nav-bar-mobile{
+	display: none;
+}
+
 
 @media screen and (max-width: 980px) {
 	.menu{
@@ -92,6 +96,9 @@ tr:nth-child(even) {
 		left:0;
 		
 		background-color: rgba(	0,0,0,0.8 ); 
-		
+	}
+	
+	.nav-bar-mobile{
+		display: block;
 	}
 }
