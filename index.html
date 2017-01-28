@@ -9,24 +9,24 @@
 		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./extensions/menu/style.css"/>
 
-		
+
 		<link rel="stylesheet" href="./extensions/collapsible/css/jquery.mobile-1.4.5.min.css"/>
 		<script src="./extensions/collapsible/js/jquery-1.11.3.min.js"></script>
 		<script src="./extensions/collapsible/js/jquery.mobile-1.4.5.min.js"></script>
-	
+
 		<meta name="viewport" content="width=device.width, initial-scale= 1">
-		
-		<meta name="description"	
+
+		<meta name="description"
 			content="Duedate - important dates for Projects & Assignment 's deadline">
 		<meta name="keywords"
 			content="deadline, projects, assignments, nci, computing, 2020, opensource, duedate, timetable, resources">
 
 	</head>
-	
+
 	<body>
-	<!--- Menu --->
+		<!--- Menu --->
 		<div class="menu">
-			<table>	
+			<table>
 				<tr>
 					<th>
 						<button type="button" onclick="location.href='http://openchill.gear.host'">
@@ -39,7 +39,7 @@
 						</button>
 					</th>
 					<th>
-						<button onclick="location.href='http://bsch-timetable.gear.host'">
+						<button>
 							Timetable
 						</button>
 					</th>
@@ -52,63 +52,27 @@
 			</table>
 		</div>
 
-	<!-- Mobile Menu -->	
-	<div class="mobile-menu">
-		<div data-role="main" class="ui-content">
-			<div data-role="collapsible">
-				<h1>
-					<button>
-						<span class="mobutt-menu">Menu</span>
-					</button>
-				</h1>
-			  <p>
-				<div class="menu-outbord">
-					<div class="menu-minobo">
-						<table class="menu-mob-bg">	
-							<tr>
-								<th>
-									<button type="button" onclick="location.href='http://openchill.gear.host'">
-										OpenSource & Chill
-									</button>
-								</th>
-								<th>
-									<button type="button" onclick="location.href='http://duedate.gear.host'">
-										Duedate
-									</button>
-								</th>
-							</tr>
-							<tr>
-								<th>
-									<button onclick="location.href='http://bsch-timetable.gear.host'">
-										Timetable
-									</button>
-								</th>
-								<th>
-									<button>
-										Resources
-									</button>
-								</th>
-							</tr>
-						</table>
+
+
+		<div class="nav-bar-mobile">
+			<div class="navbar-static-top navbar-inverse">
+				<div class="container">
+					<div class="navbar-brand">
+						OpenSource & Chill
 					</div>
-				</div>	
-			  </p>
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+						Menu
+					</button>
+					<div class="collapse navbar-collapse navHeaderCollapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="http://openchill.gear.host/">Home</a></li>
+							<li><a href="http://duedate.gear.host/">Duedate</a></li>
+							<li><a href="http://timetable.gear.host/">Timetable</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
-		
-	</div>	
-		
-	<!-- ---------- -->	
-		<div class="head-con">
-			<h1> Due Date</h1>
-			<p class="slogan"> Projects & Assignment Deadline</p>
-			<p class="modate"> Last Update: 18/Jan/2017 </p>
-		</div>
-		
-		<!--- Menu Mini --->
-		
-
-		
 		<div class="body-box">
 	<!--- Project #1--->
 			<div class="row">
@@ -117,7 +81,7 @@
 						<h3> Deadline </h3>
 						<h4> n/a</h4>
 					</div>
-					
+
 					<div class="nest-first col-lg-3">
 						<h3> Module</h3>
 						<h4> n/a </h4>
@@ -131,21 +95,21 @@
 				</div>
 			</div>
 			<div class="linespace"></div>
-			
-		<!--- Start Here  -->	
-		
+
+		<!--- Start Here  -->
+
 			<div class="row">
 				<div class="box">
 					<div class="nest-first col-lg-3">
 						<h3> Deadline </h3>
 						<h4> n/a</h4>
 					</div>
-					
+
 					<div class="nest-first col-lg-3">
 						<h3> Module</h3>
 						<h4> n/a</h4>
 					</div>
-					
+
 					<div data-role="main" class="ui-content">
 						<div data-role="collapsible">
 							<h1 class="collapen">
@@ -153,8 +117,8 @@
 							</h1>
 						  <p>
 						  <!--- More Details here -->
-						  
-						  
+
+
 						  <!--- end --->
 						  </p>
 						</div>
@@ -162,14 +126,9 @@
 				</div>
 			</div>
 			<div class="linespace"></div>
-		<!--- End Here -->			
-		
+		<!--- End Here -->
+
 		</div>
-		
-		<div class="devcred">
-		 <h4>Developed by <b>OpenChill DevOp Team</b></h4>
-		 <p> Laurence F, Penuel M, Chris M, Josh M</p>
-		</div>
-		
+
 	</body>
 </html> 
