@@ -9,7 +9,7 @@
 	z-index: 3;
 	padding-bottom: 40px;
 	}
-	
+
 .menu-mini{
 	display: none;
 }
@@ -18,13 +18,13 @@ button{
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(	160,82,45,0.8 ); 
+	background-color: rgba(	160,82,45,0.8 );
 	color: white;
 	border-radius: 50px;
 	}
 
 button:hover{
-	background-color: rgba(	160,82,45,0.3 ); 
+	background-color: rgba(	160,82,45,0.3 );
 	color: black;
 	}
 
@@ -60,10 +60,10 @@ tr:nth-child(even) {
 
 @media screen and (max-width: 980px) {
 	.menu{
-		display: none; 
+		display: none;
 	}
 
-		
+
 	.menu-mini{
 		position: fixed;
 		display: block;
@@ -71,7 +71,7 @@ tr:nth-child(even) {
 		height: 50px;
 		top: 0;
 	}
-	
+
 	#main-menu-mini{
 		display: none;
 		position: fixed;
@@ -81,11 +81,11 @@ tr:nth-child(even) {
 		background-image:url('./images/img_wood.jpg');
 		z-index: 40;
 		background-repeat: no-repeat;
-		
+
 		margin-top: 10%;
 		top: 0;
 	}
-	
+
 	#overlay{
 		position: fixed;
 		display: none;
@@ -94,10 +94,10 @@ tr:nth-child(even) {
 		z-index: 30;
 		top: 0;
 		left:0;
-		
-		background-color: rgba(	0,0,0,0.8 ); 
+
+		background-color: rgba(	0,0,0,0.8 );
 	}
-	
+
 	.nav-bar-mobile{
 		display: block;
 	}
