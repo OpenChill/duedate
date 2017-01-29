@@ -1,0 +1,131 @@
+body{
+	position: relative;
+	padding-right: 30%;
+	padding-left: 20%;
+	background-image:url('../images/img_lite.jpg');
+
+	}
+
+.head-con{
+	 background-color: rgba(255,255,255,0.3);
+	 text-align: center;
+	 padding: 2%;
+	 border-radius: 15px;
+	margin-top: 80px;
+	}
+h1{
+	min-width: 200px;
+	padding: 0%;
+	}
+
+.slogan{
+	font-weight: 700;
+	font-size: 22px;
+	}
+.modate {
+	font-size: 20px;
+}
+
+.body-box{
+	position: relative;
+
+	}
+/*
+.box{
+	min-height: 100%;
+	top: 500px;
+	border-style: solid;
+	border-width: 0px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 2%;
+	border-radius: 15px;
+	}
+*/
+
+
+.row{
+	bottom: 300px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 2%;
+	border-radius: 15px;
+	}
+
+.head-4{
+	padding-left: 0%;
+	padding-top: 3%;
+	}
+h3{
+	font-size: 22px;
+	z-index: 0;
+	}
+
+h4{
+	padding-left: 5%;
+	font-size: 25px;
+	z-index: 0;
+	}
+.nest-first{
+	border-style: dashed;
+	border-width: 1px;
+	border-color: black;
+	padding: 2%;
+	z-index: 0;
+	}
+
+.ui-content{
+	z-index: 5;
+}
+
+.collapen{
+	position: relative;
+	top: -10px;
+	font-size: 18px;
+	}
+
+.linespace{
+	height: 20px;
+}
+
+.devcred{
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-right: 30%;
+	padding-left: 10%;
+	}
+
+@media screen and (max-width: 980px) {
+	body{
+		background-image:url('../images/img_lite.jpg');
+		padding: 5%;
+		padding-top: 2%;
+		}
+
+	.head-4{
+		padding-left: 20%;
+		padding-top: 3%;
+		}
+	.head-con{
+		text-align: center;
+		padding: 2%;
+		border-radius: 15px;
+		margin-top: 20px;
+	}
+
+	.devcred{
+		border-style: solid;
+		border-width: 2px;
+		border-color: black;
+		margin-top: 5px;
+		margin-left: 10%;
+		margin-right: 10%;
+		background: rgba(255,255,255,0.8);
+
+		padding-left: 10%;
+		}
+
+}
