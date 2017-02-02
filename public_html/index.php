@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-
-<html>
-
-	<head>
-		<title> Duedate</title>
-		<link rel="stylesheet" href="./css/null.css"/>
-		<link rel="stylesheet" href="./css/bootstrap.min.css" />
-		<link rel="stylesheet" href="./css/style.css" />
-		<link rel="stylesheet" href="./extensions/menu/style.css"/>
-
-
-		<link rel="stylesheet" href="./extensions/collapsible/css/jquery.mobile-1.4.5.min.css"/>
-		<script src="./extensions/collapsible/js/jquery-1.11.3.min.js"></script>
-		<script src="./extensions/collapsible/js/jquery.mobile-1.4.5.min.js"></script>
-
-		<meta name="viewport" content="width=device.width, initial-scale= 1">
-
-		<meta name="description"
-			content="Duedate - important dates for Projects & Assignment 's deadline">
-		<meta name="keywords"
-			content="deadline, projects, assignments, nci, computing, 2020, opensource, duedate, timetable, resources">
-
-	</head>
+<?php include $_SERVER['DOCUMENT ROOT'] . '/../inc/header.php'; ?>
 
 	<body>
 		<!--- Menu --->
@@ -130,5 +107,4 @@
 
 		</div>
 
-	</body>
-</html>
+<?php include $_SERVER['DOCUMENT ROOT'] . '/../inc/header.php'; ?>
