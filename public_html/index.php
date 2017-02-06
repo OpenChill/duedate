@@ -1,5 +1,4 @@
-<?php include $_SERVER['DOCUMENT ROOT'] . '/../inc/header.php'; ?>
-
+<?php include '../inc/header.php'; ?>
 	<body>
 		<!--- Menu --->
 		<div class="menu">
